@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1:3306
--- Thời gian đã tạo: Th3 19, 2022 lúc 02:51 PM
+-- Thời gian đã tạo: Th3 20, 2022 lúc 02:09 PM
 -- Phiên bản máy phục vụ: 5.7.36
 -- Phiên bản PHP: 7.4.26
 
@@ -249,7 +249,7 @@ CREATE TABLE IF NOT EXISTS `tbl_customer` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`customer_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Đang đổ dữ liệu cho bảng `tbl_customer`
@@ -257,7 +257,8 @@ CREATE TABLE IF NOT EXISTS `tbl_customer` (
 
 INSERT INTO `tbl_customer` (`customer_id`, `customer_name`, `customer_email`, `customer_phone`, `customer_password`, `customer_address`, `created_at`, `updated_at`) VALUES
 (4, 'Hàng Ngọc Hưng', 'hung@gmail.com', '0978119953', 'e10adc3949ba59abbe56e057f20f883e', 'Quận 7, TP.HCM', NULL, NULL),
-(3, 'Bản Trần', 'bant835@gmail.com', '0978119953', 'e10adc3949ba59abbe56e057f20f883e', 'Hóc Môn, TP.HCM', NULL, NULL);
+(3, 'Bản Trần', 'bant835@gmail.com', '0978119953', 'e10adc3949ba59abbe56e057f20f883e', 'Hóc Môn, TP.HCM', NULL, NULL),
+(5, 'hai', 'hai@gmail.com', '0978119953', 'e10adc3949ba59abbe56e057f20f883e', 'Hóc Môn, TP.HCM', NULL, NULL);
 
 -- --------------------------------------------------------
 
