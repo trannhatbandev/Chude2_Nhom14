@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1:3306
--- Thời gian đã tạo: Th3 20, 2022 lúc 02:09 PM
+-- Thời gian đã tạo: Th3 22, 2022 lúc 01:28 PM
 -- Phiên bản máy phục vụ: 5.7.36
 -- Phiên bản PHP: 7.4.26
 
@@ -297,9 +297,7 @@ INSERT INTO `tbl_product` (`product_id`, `product_name`, `product_description`, 
 (8, 'Sản phẩm 8', 'Chất lượng', 300456.78, 1, 'san-pham-8', 'puma435.jpg', 8, 11, NULL, NULL),
 (9, 'Sản phẩm 2', 'Chất lượng tuyệt vời', 4567.89, 1, 'san-pham-2', 'gucci423.jpg', 11, 10, NULL, NULL),
 (10, 'Sản phẩm 3', 'Chất lượng', 4567.89, 1, 'san-pham-3', 'puma140.jpg', 16, 11, NULL, NULL),
-(11, 'Sản phẩm 9', 'Chất lượng', 300456.78, 1, 'san-pham-9', 'gucci53.jpg', 15, 10, NULL, NULL),
-(12, 'Áo thun trẻ em 1', 'Ok', 300456.78, 1, 'ao-thun-tre-em-1', 'pb378.jpg', 17, 9, NULL, NULL),
-(13, 'Sản phẩm 10', 'Chất lượng', 300456.78, 0, 'san-pham-10', 'pbb122.jpg', 17, 9, NULL, NULL);
+(11, 'Sản phẩm 9', 'Chất lượng', 300456.78, 1, 'san-pham-9', 'gucci53.jpg', 15, 10, NULL, NULL);
 
 -- --------------------------------------------------------
 
